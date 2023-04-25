@@ -1,0 +1,13 @@
+{block content}
+    Hello World! It's {$title}
+
+    <div n:foreach="$text as $item">
+        {$item}
+    </div>
+    <div n:foreach="$text as $item">
+        <p>{$item}</p>
+    </div>
+    {foreach $text as $item}
+        {$item}
+    {/foreach}
+{/block}
