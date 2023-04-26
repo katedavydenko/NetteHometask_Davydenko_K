@@ -22,7 +22,8 @@ final class RouterFactory
         $router->addRoute('/contacts', 'MainPages:contacts');
         $router->addRoute('/news', 'News:show');
         $router->addRoute('/sign', 'Sign:in');
-        $router->addRoute('/signout', 'Sign:out');
+        $router->addRoute('/sign/out', 'Sign:out');
+        $router->addRoute('/sign/up', 'Sign:up');
 		return $router;
 	}
 }
